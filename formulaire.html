@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8" />
+	<title>formulaire</title>
+	<link rel="stylesheet" href="style2.css" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" />
+</head>
+
+<body>
+    <!----------------------------- Form ------------------------------->
+
+	<div class="container" id="container">
+		<div class="form-container sign-up-container">
+			<form action="#" id="signUpForm">
+				<h1>Create an account</h1>
+				<div class="social-container">
+					<a href="#"><i class="fab fa-facebook-f"></i></a>
+					<a href="#"><i class="fab fa-google-plus-g"></i></a>
+					<a href="#"><i class="fab fa-linkedin-in"></i></a>
+				</div>
+				<span>Use gmail account</span>
+				<input type="text" name="Name" placeholder="Name" >
+				<input type="email" name="EMail" placeholder="E-Mail">
+				<input type="password" name="Password" placeholder="Password">
+                <input type="password" name="ConfirmPassword" placeholder="Password Confirmation">
+				<button type="submit">Create an account</button>
+			</form>
+		</div>
+		<div class="form-container login-container">
+			<form action="#" id="loginForm" onsubmit="return loginFormSubmit()">
+				<h1>To log in</h1>
+				<div class="social-container">
+					<a href="#"><i class="fab fa-facebook-f"></i></a>
+					<a href="#"><i class="fab fa-google-plus-g"></i></a>
+					<a href="#"><i class="fab fa-linkedin-in"></i></a>
+				</div>
+				<input type="email" name="Email" placeholder="E-mail">
+				<input type="password" name="Password" placeholder="Password">
+				<button type="submit">To log in</button>
+			</form>
+		</div>
+
+		<div class="overlay-container">
+			<div class="overlay">
+				<div class="overlay-panel overlay-left">
+					<h1>RB.Cosmetic</h1>
+					<p>Welcome to RB Cosmetic,where beauty meets extraordinary allure.Discover the beauty secret with us.</p>
+					<button class="ghost" id="login">To log in</button>
+                    <button onclick="BackToHome()">Back</button>
+
+				</div>
+				<div class="overlay-panel overlay-right">
+					<h1>RB.Cosmetic</h1>
+					<p>Welcome to RB Cosmetic,where beauty meets extraordinary allure.Discover the beauty secret with us.</p>
+                    <span>I do not have an account</span>
+					<button class="ghost" id="signUp">Create an account</button>
+                    <button onclick="BackToHome()">Back</button>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<script src="script2.js" charset="utf-8"></script>
+</body>
+
+</html>
