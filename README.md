@@ -66,6 +66,7 @@ RB-Cosmetic/
 
 <img width="1918" height="903" alt="image" src="https://github.com/user-attachments/assets/6c1128e7-7362-46ee-90a4-b5d73955a66f" />
 
+https://www.youtube.com/watch?v=1S_mKzksVI0
 ---
 
 ## 👤 Author
